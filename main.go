@@ -3,11 +3,11 @@ package caddy_ja4h
 import (
 	"net/http"
 
+	ja4h "github.com/WJQSERVER/go-ja4h"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
-	ja4h "github.com/lum8rjack/go-ja4h"
 )
 
 func init() {
