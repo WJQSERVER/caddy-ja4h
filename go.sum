@@ -42,8 +42,8 @@ github.com/Microsoft/go-winio v0.6.2 h1:F2VQgta7ecxGYO8k3ZZz3RS8fVIXVxONVUPlNERo
 github.com/Microsoft/go-winio v0.6.2/go.mod h1:yd8OoFMLzJbo9gZq8j5qaps8bJ9aShtEA8Ipt1oGCvU=
 github.com/OneOfOne/xxhash v1.2.2 h1:KMrpdQIwFcEqXDklaen+P1axHaj9BSKzvpUUfnHldSE=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
-github.com/WJQSERVER/go-ja4h v0.0.0-20250125072010-a3df0eed347c h1:kFzU/txH8k1jsZN/8Df8R/Y/ZLKNBcKSjvtdpWYVgUM=
-github.com/WJQSERVER/go-ja4h v0.0.0-20250125072010-a3df0eed347c/go.mod h1:z5qJhSRJVilU1pgttVwI2JBsxoEkZIt/BpIY52QpG2o=
+github.com/WJQSERVER/go-ja4h v1.0.0 h1:bMDP5f5Im4EvXB+1AL21a8fokr31IQHLYAJcaSq+jTY=
+github.com/WJQSERVER/go-ja4h v1.0.0/go.mod h1:z5qJhSRJVilU1pgttVwI2JBsxoEkZIt/BpIY52QpG2o=
 github.com/anmitsu/go-shlex v0.0.0-20161002113705-648efa622239/go.mod h1:2FmKhYUyUczH0OGQWaF5ceTx0UBShxjsH6f8oGKYe2c=
 github.com/antlr4-go/antlr/v4 v4.13.1 h1:SqQKkuVZ+zWkMMNkjy5FZe5mr5WURWnlpmOuzYWrPrQ=
 github.com/antlr4-go/antlr/v4 v4.13.1/go.mod h1:GKmUxMtwp6ZgGwZSva4eWPC5mS6vUAmOABFgjdkM7Nw=

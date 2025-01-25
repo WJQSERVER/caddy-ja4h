@@ -3,7 +3,7 @@ module github.com/WJQSERVER/caddy-ja4h
 go 1.23.5
 
 require (
-	github.com/WJQSERVER/go-ja4h v0.0.0-20250125072010-a3df0eed347c
+	github.com/WJQSERVER/go-ja4h v1.0.0
 	github.com/caddyserver/caddy/v2 v2.9.1
 )
 
