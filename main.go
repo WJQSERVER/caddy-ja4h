@@ -39,8 +39,8 @@ func (m *Middleware) Validate() error {
 
 // ServeHTTP 实现 caddyhttp.MiddlewareHandler 接口。
 func (m Middleware) ServeHTTP(w http.ResponseWriter, r *http.Request, next caddyhttp.Handler) error {
-	j := ja4h.JA4H(r) // 计算 JA4H 指纹
-	//r.Header.Add("Ja4h", j)     // 将 JA4H 指纹添加到请求头部
+	j := ja4h.JA4H(r)       // 计算 JA4H 指纹
+	r.Header.Add("Ja4h", j) // 将 JA4H 指纹添加到请求头部
 	repl := r.Context().Value(caddy.ReplacerCtxKey).(*caddy.Replacer)
 	repl.Set("ja4h", j)
 	return next.ServeHTTP(w, r) // 调用下一个处理器
